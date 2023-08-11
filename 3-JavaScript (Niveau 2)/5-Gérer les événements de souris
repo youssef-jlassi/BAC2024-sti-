@@ -1,0 +1,4 @@
+var btn = document.getElementById("monBouton");
+btn.addEventListener("click", function() {
+    alert("Bouton cliqué!");
+});

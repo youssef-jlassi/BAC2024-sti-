@@ -1,0 +1,4 @@
+var fruits = ["Pomme", "Banane", "Orange"];
+fruits.push("Fraise");
+console.log(fruits.length);  // Affiche la longueur du tableau
+console.log(fruits[2]);      // Affiche "Orange"

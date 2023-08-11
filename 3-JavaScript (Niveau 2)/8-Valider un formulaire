@@ -1,0 +1,7 @@
+function validateForm() {
+    var name = document.forms["monFormulaire"]["nom"].value;
+    if (name === "") {
+        alert("Veuillez entrer un nom");
+        return false;
+    }
+}

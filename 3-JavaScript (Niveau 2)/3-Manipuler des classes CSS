@@ -1,0 +1,4 @@
+function toggleClass() {
+    var element = document.getElementById("monElement");
+    element.classList.toggle("highlight");
+}

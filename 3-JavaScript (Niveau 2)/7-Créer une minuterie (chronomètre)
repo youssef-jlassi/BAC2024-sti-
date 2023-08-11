@@ -1,0 +1,15 @@
+var seconds = 0;
+var timer;
+
+function startTimer() {
+    timer = setInterval(updateTime, 1000);
+}
+
+function updateTime() {
+    seconds++;
+    document.getElementById("timer").innerHTML = "Temps écoulé: " + seconds + " secondes";
+}
+
+function stopTimer() {
+    clearInterval(timer);
+}

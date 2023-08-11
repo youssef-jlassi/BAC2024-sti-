@@ -1,0 +1,5 @@
+function changeColor() {
+    var element = document.getElementById("monElement");
+    element.style.color = "blue";
+    element.style.backgroundColor = "yellow";
+}
