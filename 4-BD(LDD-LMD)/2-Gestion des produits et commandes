@@ -1,0 +1,11 @@
+Modèle Conceptuel (LDD):
+
+Entités: Produit, Commande, Client
+Attributs: Produit (ID, Nom, Description, Prix), Commande (ID, Date), Client (ID, Nom, Adresse)
+Associations: Contient (Commande - Produit), Passe (Client - Commande)
+
+Modèle Logique (LMD):
+
+Tables: Produit (ID, Nom, Description, Prix), Commande (ID, Date, ClientID), Client (ID, Nom, Adresse)
+Clés Primaires: Produit(ID), Commande(ID), Client(ID)
+Clés Étrangères: Contient(CommandeID, ProduitID), Passe(ClientID, CommandeID)

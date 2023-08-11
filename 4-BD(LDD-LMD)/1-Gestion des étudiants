@@ -1,0 +1,11 @@
+Modèle Conceptuel (LDD):
+
+Entités: Étudiant, Cours, Professeur
+Attributs: Étudiant (ID, Nom, Prénom, Date de naissance), Cours (ID, Nom, Description), Professeur (ID, Nom, Prénom, Spécialité)
+Associations: Inscription (Étudiant - Cours), Enseigne (Professeur - Cours)
+
+Modèle Logique (LMD):
+
+Tables: Etudiant (ID, Nom, Prenom, DateNaissance), Cours (ID, Nom, Description), Professeur (ID, Nom, Prenom, Specialite)
+Clés Primaires: Etudiant(ID), Cours(ID), Professeur(ID)
+Clés Étrangères: Inscription(EtudiantID, CoursID), Enseigne(ProfesseurID, CoursID)
