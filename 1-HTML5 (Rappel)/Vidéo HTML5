@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vidéo HTML</title>
+</head>
+<body>
+    <h1>Vidéo</h1>
+    <video controls width="400">
+        <source src="chemin/vers/ma_video.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la vidéo HTML5.
+    </video>
+</body>
+</html>

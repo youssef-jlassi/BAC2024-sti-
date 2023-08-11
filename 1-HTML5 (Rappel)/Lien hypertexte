@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lien HTML</title>
+</head>
+<body>
+    <h1>Liens</h1>
+    <a href="https://www.example.com">Visitez Example.com</a>
+</body>
+</html>

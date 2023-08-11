@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste HTML</title>
+</head>
+<body>
+    <h1>Ma Liste</h1>
+    <ul>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+    </ul>
+</body>
+</html>
