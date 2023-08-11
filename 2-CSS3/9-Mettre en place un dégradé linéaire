@@ -1,0 +1,3 @@
+.gradient-bg {
+    background: linear-gradient(to bottom, #ffcc00, #ff9900);
+}
